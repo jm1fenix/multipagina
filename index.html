@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <style>
+        button{
+            height: 50px;
+            width: 120px;
+        }
+        body{
+            text-align: center;
+            background-size: cover;
+            background-image: url(https://img.freepik.com/fotos-premium/neon-pink-fade-para-fundo-gradiente-de-cor-de-limao-acido-modelo-de-banner_335640-4340.jpg);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Página Principal</h1>
+    <a href="Temperaturas.html">Temperaturas</a> <br><br>
+    <button onclick="sobremim()">Sobre mim</button> <br><br>
+    <button onclick="interesses()">Interesses</button>
+</body>
+</html>
+
+<script>
+function sobremim(){
+    window.location.href = "sobremim.html"
+}
+function interesses(){
+    window.open("Interesses.html")
+}
+</script>
